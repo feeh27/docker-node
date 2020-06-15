@@ -8,3 +8,4 @@ Available tags:
 * {version}-stretch-slim
 * {version}-stretch-slim-serverless
 * {version}-alpine
+* {version}-alpine-serverless
