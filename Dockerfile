@@ -8,6 +8,6 @@ RUN mkdir -p /src
 
 WORKDIR /src
 
-RUN yarn global add serverless@^2.0.0
+RUN yarn global add serverless@2.37.1
 
 EXPOSE 80
