@@ -1,4 +1,4 @@
-FROM node:12.18-alpine
+FROM node:14.16-alpine
 
 RUN apk update && apk upgrade
 
@@ -8,6 +8,6 @@ RUN mkdir -p /src
 
 WORKDIR /src
 
-RUN yarn global add serverless@^2.0.0
+RUN yarn global add serverless@^2.38.0
 
 EXPOSE 80
